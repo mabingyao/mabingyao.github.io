@@ -1,8 +1,16 @@
 
 .container { margin: 0 auto; width: 100%; }
 
+/******/
 a.table-link-list {
     font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
     font-size: 12pt;
     text-align:center;
 }
+a.table-link-list::before {
+    content: '[';
+}
+a.table-link-list::after {
+    content: ']';
+}
+/******/
